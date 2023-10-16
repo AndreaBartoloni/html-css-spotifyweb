@@ -7,14 +7,22 @@ h5{
     color: white;
     display: inline-block;
 }
-span, p {
-    color: gray;
-    font-size: 15px;
+p:hover{
+    color: white;
 }
-h4{
-display: inline-block;
+span:hover{
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.icon:hover{
+    filter: none;
+}
+.container-whishlist > img:hover{
+    color: white;
+}
 
-}
 img{
     vertical-align: middle;
 }
@@ -22,10 +30,10 @@ img{
     width: 95%;
     margin: auto;
 }
+  
+
 /*** border ***/
-.border{
-    border-top: 1px solid gray;
-}
+
 
 
 /*** FLEX ***/
@@ -103,6 +111,7 @@ img{
 .h-100p { height: 100px; }
 .h-150p { height: 150px; }
 .h-200p { height: 200px; }
+.h-230p { height: 230px; }
 .h-300p { height: 300px; }
 .h-500p { height: 500px; }
 
